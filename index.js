@@ -1,12 +1,12 @@
-let person ={
-    name: 'Abhi',
-    age: 28
-}
+// let person ={
+//     name: 'Abhi',
+//     age: 28
+// }
 
 //Dot notation
-person.age = 27
+// person.age = 27
 
-console.log(person)
+// console.log(person)
 
 //Objects
 //objects are dynamic
@@ -15,8 +15,14 @@ colors[2] = 'Blue'
 console.log(colors)
 
 //Functions
-function greet(){
-    console.log("I like momos")
+function greet(name){
+    console.log(name + " likes momos")
 }
 
-greet()
+greet('Abhi')
+
+function square(number){
+    return number*number
+}
+
+console.log(square(9))
